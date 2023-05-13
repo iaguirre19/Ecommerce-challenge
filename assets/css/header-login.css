@@ -1,0 +1,37 @@
+.header{
+    height: 7rem;
+    background-color: var(--primary-color-red);
+    padding: 1rem;
+}
+.header__content{
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.header__content-logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: .1rem;
+}
+.header__content-logo .uil-caret-right{
+    color: var(--second-color-white);
+    font-size: 2.4rem;
+}
+.header__content-logo .content__logo-letters{
+    font-size: 1.7rem;
+    color: var(--second-color-white);
+    font-weight: bold;
+}
+.header__content-logo .content__logo-letters span{
+    color: #181818;
+}
+.header__content .uil-search{
+    font-size: 2.2rem;
+    color: var(--second-color-white);
+}
+
